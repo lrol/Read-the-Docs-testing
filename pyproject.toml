@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "oauth2handler"
+version = "1.0.0"
+description = "A general purpose Python Library for dealing with oauth2 APIs."
+authors = ["Landon Roll"]
+maintainers = ["Landon Roll"]
+readme = "README.md"
+homepage = "https://github.com/lrol/oauth2handler"
+repository = "https://github.com/lrol/oauth2handler"
+documentation = "https://github.com/lrol/oauth2handler/wiki"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3 :: Only",
+]
+packages = [
+    { include = "oauth2handler" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.0"
+requests = "2.28.1"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/lrol/oauth2handler/issues"
+"Changes" = "https://github.com/lrol/oauth2handler/CHANGLOG.md"
